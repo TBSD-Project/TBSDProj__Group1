@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TBSD_Group1_Playlist/TBSD_Group1_Playlist.vcxproj" />
+</Solution>

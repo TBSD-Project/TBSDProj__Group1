@@ -3,5 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="TBSD_Group1_Playlist/TBSD_Group1_Playlist.vcxproj" />
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="TBSD_Group1_Playlist/TBSD_Group1_Playlist.vcxproj" Id="3f1fd0d9-a027-4b34-8a6c-8b38a3449886" />
 </Solution>

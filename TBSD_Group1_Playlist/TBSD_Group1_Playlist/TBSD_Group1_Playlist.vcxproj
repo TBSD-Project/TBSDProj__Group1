@@ -127,9 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="displayManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="playlistManager.cpp" />
+    <ClCompile Include="songQueue.cpp" />
+    <ClCompile Include="songs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="displayManager.h" />
+    <ClInclude Include="playlistManager.h" />
+    <ClInclude Include="songQueue.h" />
     <ClInclude Include="songs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

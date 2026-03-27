@@ -18,9 +18,30 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="songs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playlistManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="songQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="songs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playlistManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="songQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

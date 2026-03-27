@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/*
+CHANGED AND REVERTED CONFLICTING FILES
+
+
+*/
+
 
 int main() {
 

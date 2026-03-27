@@ -35,14 +35,5 @@
     <ClInclude Include="songs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="playlistManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="displayManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="songQueue.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

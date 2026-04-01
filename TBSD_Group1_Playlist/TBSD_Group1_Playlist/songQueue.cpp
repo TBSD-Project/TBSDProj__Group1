@@ -1,0 +1,9 @@
+#include "songQueue.h"
+
+void addSongToQueue(vector<Song>& queue, const Song& song);
+void removeSongFromQueue(vector<Song>& queue);
+void reorderQueue(vector<Song>& queue, int oldIndex, int newIndex);
+void displayQueue(const vector<Song>& queue);
+Song playNextSong(vector<Song>& queue);
+void clearQueue(vector<Song>& queue);
+

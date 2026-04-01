@@ -1,17 +1,24 @@
 #pragma once
 
 #include <vector>
+#include <string>
 #include "songs.h"
 
 using namespace std;
 
 class PlaylistManager {
 public:
-    // removes the entire playlist
-    void removePlaylist(vector<Song>& playlist);
+    class Playlist {
+    public:
+        string name;
+        vector<Song> songs;
+    };
 
-    // modify playlist options
-    void addSong(vector<Song>& playlist, const Song& song);
-    void removeSong(vector<Song>& playlist, int index);
-    void reorderSong(vector<Song>& playlist, int oldIndex, int newIndex);
+    void removePlaylist(Playlist& playlist);
+
+    void addSong(Playlist& playlist, const Song& song);
+    void removeSong(Playlist& playlist, int index);
+    void reorderSong(Playlist& playlist, int oldIndex, int newIndex);
+    void renamePlaylist(Playlist& playlist, string newName);
+    void sortPlaylistByName(Playlist& playlist);
 };

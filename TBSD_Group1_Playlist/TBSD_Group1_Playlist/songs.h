@@ -20,16 +20,17 @@ public:
     string getTitle();
     string getArtist();
     string getAlbum();
-    int getLength();
+    int getPlaycount();
 
     // Setters
     void setTitle(string t);
     void setArtist(string ar);
     void setAlbum(string al);
-    void setLength(int d);
+    void setLength(int d);    
 
-    // will display the songs 
+    // will display the songs/playcount
     void display();
+    void incrementPlayCount();
 
 
 };

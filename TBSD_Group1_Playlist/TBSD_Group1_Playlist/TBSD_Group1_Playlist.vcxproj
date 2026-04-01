@@ -132,6 +132,7 @@
     <ClCompile Include="playlistManager.cpp" />
     <ClCompile Include="songQueue.cpp" />
     <ClCompile Include="songs.cpp" />
+    <ClCompile Include="testing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="songs.h" />

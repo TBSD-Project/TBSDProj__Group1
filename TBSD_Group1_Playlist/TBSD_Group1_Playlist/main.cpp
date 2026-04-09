@@ -1,6 +1,7 @@
 #include <iostream>
 #include "playlistManager.h"
 #include "songs.h"
+#include "displayManager.h"
 
 using namespace std;
 
@@ -37,3 +38,29 @@ int main() {
 
     return 0;
 }
+   {
+    // Create a song
+    Song song1("Blinding Lights", "The Weeknd", "After Hours", 5);
+
+    // Create display manager
+    DisplayManager dm;
+
+    // Display song info
+    dm.displayTitle(song1);
+    dm.displayArtist(song1);
+    dm.displayAlbum(song1);
+    dm.displayTimesPlayed(song1);
+
+    cout << endl;
+
+    // Test missing artist
+    Song song2("Unknown Song", "", "", 0);
+
+    dm.displayTitle(song2);
+    dm.displayArtist(song2);  // should show "Unknown Artist"
+    dm.displayAlbum(song2);   // should show "Unknown Album"
+    dm.displayTimesPlayed(song2);
+
+    return 0;
+
+    }

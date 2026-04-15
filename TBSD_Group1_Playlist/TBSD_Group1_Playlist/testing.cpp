@@ -7,6 +7,3 @@
 
 using namespace std;
 //test here
-int main() {
-    
-}

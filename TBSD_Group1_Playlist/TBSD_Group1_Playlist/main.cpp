@@ -64,3 +64,35 @@ int main() {
     return 0;
 
     }
+   {
+       SongQueueManager sqm;
+       vector<Song> queue;
+
+       Song s1("Song A", "Artist A", "Album A", 0);
+       Song s2("Song B", "Artist B", "Album B", 0);
+       Song s3("Song C", "Artist C", "Album C", 0);
+
+       sqm.addSongToQueue(queue, s1);
+       sqm.addSongToQueue(queue, s2);
+       sqm.addSongToQueue(queue, s3);
+
+       sqm.displayQueue(queue);
+
+       cout << endl;
+
+       sqm.playNextSong(queue);   // plays Song A
+       sqm.displayQueue(queue);
+
+       cout << endl;
+
+       sqm.reorderQueue(queue, 1, 0);
+       sqm.displayQueue(queue);
+
+       cout << endl;
+
+       sqm.clearQueue(queue);
+       sqm.displayQueue(queue);
+
+       return 0;
+   }
+   

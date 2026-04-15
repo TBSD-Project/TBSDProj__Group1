@@ -38,7 +38,7 @@ void PlaylistManager::sortPlaylistByName(Playlist& playlist) {
 
     sort(playlist.songs.begin(), playlist.songs.end(),
         [](Song a, Song b) {
-            return a.name < b.name;
+			return a.getTitle() < b.getTitle();
         });
 
 }

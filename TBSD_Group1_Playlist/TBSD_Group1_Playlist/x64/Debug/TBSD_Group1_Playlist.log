@@ -1,1 +1,29 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(463,5): error MSB8020: The build tools for v145 (Platform Toolset = 'v145') cannot be found. To build using the v145 build tools, please install v145 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  displayManager.cpp
+  main.cpp
+  playlistManager.cpp
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\main.cpp(24,11): error C2039: 'name': is not a member of 'Song'
+      C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\songs.h(6,7):
+      see declaration of 'Song'
+  
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\main.cpp(27,11): error C2039: 'name': is not a member of 'Song'
+      C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\songs.h(6,7):
+      see declaration of 'Song'
+  
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\main.cpp(37,35): error C2039: 'name': is not a member of 'Song'
+      C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\songs.h(6,7):
+      see declaration of 'Song'
+  
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\main.cpp(42,4): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\main.cpp(68,4): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\playlistManager.cpp(41,22): error C2039: 'name': is not a member of 'Song'
+      C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\songs.h(6,7):
+      see declaration of 'Song'
+  
+C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\playlistManager.cpp(41,31): error C2039: 'name': is not a member of 'Song'
+      C:\Users\bolex\source\repos\TBSDProj__Group\TBSD_Group1_Playlist\TBSD_Group1_Playlist\songs.h(6,7):
+      see declaration of 'Song'
+  
+  songQueue.cpp
+  songs.cpp
+  testing.cpp
+  Generating Code...

@@ -2,6 +2,7 @@
 #include "playlistManager.h"
 #include "songs.h"
 #include "displayManager.h"
+#include "songQueue.h"
 
 using namespace std;
 
